@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MyMarket</title>
+<link href="estilo.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div id="conteudo">
+	<div id="topo">    
+    </div>
+    <div id="descricao">
+    	<h1>O que é o MyMarket?</h1>
+        <p>Aplicativo WEB destinado a disponibilizar os preços praticados por mercados ou redes de mercados locais, para que o usuário já saia de casa sabendo para onde ir. </p>
+        <p>Com o MyMarket você pode fazer a sua própria lista de compras com os melhores preços e não perder mais tempo com pesquisas de mercado em mercado.</p>
+    </div>
+    <div id="caixa">
+    	<div class="cadastro_consumidor">
+        <h2>Cadastro de Cliente</h2>    
+        <form name="cadastrousuario" action="cadastrar_usuario.php" method="post">
+            <label for="inome" class="nome">Nome:&nbsp&nbsp&nbsp&nbsp</label><input type="text" name="nome" id="inome" class="form1" placeholder="Ex: Jonathas Oliveira"><br>
+            <label for="icpf" class="cpf">CPF:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="number" name="cpf" id="icpf" class="form1" placeholder="XXX.XXX.XXX-XX"><br>
+            <label for="iemail" class="email">E-mail:&nbsp&nbsp&nbsp</label><input type="email" id= "iemail" class="form1" name="email" placeholder="email@email"><br>
+            <label for="isenha" class="senha">Senha:&nbsp&nbsp&nbsp&nbsp</label><input type="password" id="isenha" class="form1" name="senha"><br><br><br><br><br><br><br>
+            <input type="submit" value="ENVIAR" name="cad_usuario">
+        </form>
+        <a href="login_consumidor.php">JÁ SOU CADASTRADO</a>
+        </div>
+        <div class="cadastro_mercado">
+        <h2>Cadastro de Mercado</h2>
+        <form name="cadastromercado" action="cadastrar_usuario.php" method="post">
+            <label for="inome" class="nome">Nome:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="text" name="nome" id="inome" class="form1" placeholder="Ex: Walmarty"><br/>
+            <label for="icnpj" class="cnpj">CNPJ :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="number" name="cnpj" id="icnpj" class="form1" placeholder="XXX.XXX.XXX-XX"><br/>
+            <fieldset><legend>Endereço</legend>
+                <label for="irua" class="rua">Rua:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="text" name="rua" id="irua" class="form1" placeholder="Informe Logradouro"><br/>
+                <label for="ibairro" class="bairro">Bairro:&nbsp&nbsp&nbsp</label><input type="text" name="bairro" id="ibairro" class="form1" placeholder="Informe o Bairro"><br/>
+                <label for="icidade" class="cidade">Cidade:&nbsp&nbsp</label><input type="text" name="cidade" id="icidade" class="form1" placeholder="Informe a Cidade"><br/>
+            </fieldset>
+            <label for="iemail" class="email">E-mail:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="email" id= "iemail" class="form1" name="email" placeholder="email@email"><br/>
+            <label for="isenha" class="senha">Senha:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="password" id="isenha" class="form1" name="senha"><br/>
+            <input type="submit" value="ENVIAR" name="cad_mercado">
+        </form>
+        <a href="login_mercado.php">JÁ SOU CADASTRADO</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

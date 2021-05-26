@@ -1,0 +1,129 @@
+#conteudo{
+	background:white;
+	width:850px;
+	min-height:900px;
+    max-height:none;	
+	margin: 0px auto auto auto;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+#conteudo2{
+    background:#FFFFFF;
+    width: 550px;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+    position: relative;
+    float:right;
+}
+
+#topo{
+	background: url(imagens/compras.jpg);
+	background-repeat:no-repeat;
+	width: 850px;
+	height: 200px;
+	margin: auto;
+}
+
+#descricao{
+	background:white;
+	width:840px;
+	height:200px;
+    padding-left: 10px;
+    margin: 0px auto auto auto;
+}
+
+#caixa{
+	width:850px;
+	height:300px;
+	margin:auto;
+	margin-top:none;
+}
+
+#menu{
+    background:#B0C4DE;
+    width: 250px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+}
+
+#menu a:hover{
+    color:floralwhite;
+}
+
+#menu a{
+    color:black;
+}
+
+#rodape{
+    margin-top: 470px;
+    float:left;
+    position: absolute;
+}
+
+.cadastro_consumidor{
+	background: #B0C4DE;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	margin-left: 10px;
+    padding-left: 10px;
+	float: left;
+}
+
+.cadastro_consumidor a{
+    color:black;
+    float: left;     
+}
+
+.cadastro_consumidor a:hover{
+    color:floralwhite;
+}
+
+.cadastro_mercado{
+	background: #B0C4DE;
+	width: 400px;
+	height: 300px;
+	margin-bottom: 100px;
+	float: right;
+	margin-right: 10px;
+    padding-left: 10px;
+}
+
+.cadastro_mercado a{
+    color:black;
+}
+
+.cadastro_mercado a:hover{
+    color:floralwhite;
+}
+
+.atualizar{
+    background:white;
+	width:410px;
+	height:300px;
+    padding: inherit;
+	margin: auto;	
+}
+
+h1{
+    font-size: 30px;
+    font-family:serif;
+    text-align: center;
+}
+	
+h2,h3{
+	text-align: center;
+	color: #000;
+    font-size: 20px;
+}
+
+h4{
+    font-family: cursive;
+    position:relative;
+}
+
